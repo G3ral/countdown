@@ -1,6 +1,6 @@
 // Set date
 var countdownDate = new Date(
-	"January 1, 2024 00:00:00"
+	"Febrary 8, 2024 11:00:00"
 ).getTime(); /* hrs: min: sec */
 
 // Update the count down every 1 second

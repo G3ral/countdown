@@ -19,10 +19,11 @@ canvas {
 }
 .title {
 	position: absolute;
-	top: 30%;
+	text-align: center;
+	top: 25%;
 	left: 50%;
-	transform: translate(-50%, -30%);
-	font-size: 7em;
+	transform: translate(-50%, -25%);
+	font-size: 5em;
 	padding: 0;
 	margin: 0;
 }
@@ -51,11 +52,16 @@ canvas {
 }
 @media (max-width: 775px) {
 	.title {
-		top: 0.5em;
+		top: 0.1em;
+		display: flex;
+		align-items: center;
+		font-size: 3em;
+		text-align: center;
+		top: 30%;
 	}
 	#cuenta-regresiva {
 		text-align: center;
-		top: 75%;
+		top: 70%;
 	}
 	#cuenta-regresiva:after {
 		content: none;
