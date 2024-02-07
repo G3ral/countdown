@@ -61,7 +61,7 @@ canvas {
 	}
 	#cuenta-regresiva {
 		text-align: center;
-		top: 70%;
+		top: 75%;
 	}
 	#cuenta-regresiva:after {
 		content: none;
